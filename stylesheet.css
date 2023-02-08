@@ -48,12 +48,12 @@ a {
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
 }
 
-.div-titlelogo {
+.div-teaser {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.div-titlelogo img {
+.div-teaser img {
   display: block;
   margin: 0 auto;
   max-width: 100%;
