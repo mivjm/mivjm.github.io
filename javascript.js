@@ -83,20 +83,20 @@ console.log('商品は' + data + 'です。');
 
 // 要素内のクリック位置をブラウザコンソールに表示
 /* document.getElementById( "clickTarget" ).addEventListener( "click", function( event ) { */
-document.getElementById( 'target' ).addEventListener( 'click', function( event ) {
+document.getElementById('target').addEventListener('click', function(event){
   // 絶対的なクリック位置を取得
-  var clickX = event.pageX ;
-  var clickY = event.pageY ;
+  var clickX = event.pageX;
+  var clickY = event.pageY;
   
   // 要素の位置を取得
-  var clientRect = this.getBoundingClientRect() ;
-  var positionX = clientRect.left + window.pageXOffset ;
-  var positionY = clientRect.top + window.pageYOffset ;
+  var clientRect = this.getBoundingClientRect();
+  var positionX = clientRect.left + window.pageXOffset;
+  var positionY = clientRect.top + window.pageYOffset;
   
   // 要素内のクリック位置を計算
-  var x = clickX - positionX ;
-  var y = clickY - positionY ;
+  var x = clickX - positionX;
+  var y = clickY - positionY;
   
   // ブラウザコンソールへ結果を表示
   console.log(' *** x:' + x + ' y:' + y);
-} ) ;
+}, false);
