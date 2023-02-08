@@ -38,19 +38,17 @@ document.addEventListner('DOMContentLoaded', function(){
 }, false);
 */
 
-//　クリック位置取得（絶対）
 /*
+//　クリック位置取得（絶対）
 document.body.addEventListener( "click", function( event ) {
 	var x = event.pageX ;
 	var y = event.pageY ;
 } ) ;
-*/
 document.body.addEventListener( "click", function( event ) {
   var x = event.pageX ;
   var y = event.pageY ;
 } ) ;
 
-/*
 //　クリック位置取得（相対）
 // <div id="target">...</div>などの要素にクリックイベントを設定
 document.getElementById( "target" ).addEventListener( "click", function( event ) {
