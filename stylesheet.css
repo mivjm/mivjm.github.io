@@ -177,6 +177,13 @@ a {
   height: 90%;
 }
 
+#overlay-inner img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 #open-btn, #close-btn {
   display: block;
   margin: 20px auto;
