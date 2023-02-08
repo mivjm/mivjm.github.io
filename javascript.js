@@ -72,7 +72,6 @@ let price = 200;
 console.log('値段は' + price + '円です。');
 let data = ['オレンジ', 'メロン'];
 console.log('商品は' + data + 'です。');
-*/
 
 // 要素内のクリック位置をブラウザコンソールに表示
 document.getElementById('target').addEventListener('click', function(event){
@@ -92,3 +91,4 @@ document.getElementById('target').addEventListener('click', function(event){
 	// ブラウザコンソールへ結果を表示
 	console.log(' *** x:' + x + ' y:' + y);
 }, false);
+*/
