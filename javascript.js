@@ -82,7 +82,8 @@ console.log('商品は' + data + 'です。');
 */
 
 // 要素内のクリック位置をブラウザコンソールに表示
-document.getElementById( "clickTarget" ).addEventListener( "click", function( event ) {
+/* document.getElementById( "clickTarget" ).addEventListener( "click", function( event ) { */
+document.getElementById( "target" ).addEventListener( "click", function( event ) {
   // 絶対的なクリック位置を取得
   var clickX = event.pageX ;
   var clickY = event.pageY ;
