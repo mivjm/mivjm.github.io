@@ -95,10 +95,17 @@ a {
   color: white;
 }
 
-.h3-center {
+.h3-center-overlay-inner {
   margin: 50px 10px;
   text-align: center;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+}
+
+.h3-center-last-message {
+  margin: 50px 10px;
+  text-align: center;
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  color: white;
 }
 
 .h3-right {
