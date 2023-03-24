@@ -89,6 +89,13 @@ a {
   color: white;
 }
 
+.h2-profile-center {
+  margin: 30px 10px;
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
 .h3-profile {
   margin: 30px 0px 10px 0px;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
