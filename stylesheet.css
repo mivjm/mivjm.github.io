@@ -32,7 +32,7 @@ a {
   width: 800px;
   margin: 20px auto;
   background: white;
-  background: black;
+  /* background: black; */
   padding: 50px 10px;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
 }
