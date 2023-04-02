@@ -9,19 +9,9 @@ a {
   /* text-decoration: none; */
   /* ↑↑↑ cancel underline */
 }
-/*
 .body-background {
   background: white;
   background: black;
-}
-*/
-html, body {
-  height: 100%;  
-}
-
-body {
-  overflow: hidden;
-  background-color: black;
 }
 
 .div-header {
