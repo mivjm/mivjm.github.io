@@ -16,6 +16,10 @@ a {
 }
 */
 html, body {
+  height: 100%;  
+}
+
+body {
   overflow: hidden;
   background-color: black;
 }
