@@ -1,27 +1,32 @@
-function random(min, max) {
-  return min + Math.random() * (max + 1 - min);
-}
+(function(){
 
-const body = document.querySelector('body');
-const canvasSize = body.offsetWidth * body.offsetHeight;
-const starsFraction = canvasSize / 2000;
-
-for(let i = 0; i < starsFraction; i++) {
-  // Set up random elements
-  let xPos = random(0, 100);
-  let yPos = random(0, 100);
-  let alpha = random(0.5, 1);
-  let size = random(1, 2);
-  let colour = '#ffffff';
-    
-  // Add them to the body
-  const star = document.createElement('div');
-  star.style.position = 'relative';
-  star.style.left = xPos + '%';
-  star.style.top = yPos + '%';
-  star.style.opacity = alpha;
-  star.style.width = size + 'px';
-  star.style.height = size + 'px';
-  star.style.backgroundColor = colour;
-  document.body.appendChild(star);
+  function Stars(numberOfStars, divID){
+    var chosenDiv = document.getElementById(divID)  
+    chosenDiv.style.display = "none";
+    chosenDiv.innerHTML = "";
+    function randomFrom(array) {
+      return array[Math.floor(Math.random() * array.length)];
+    }
+    var text = "";
+    var i; 
+    for (i = 0; i < numberOfStars; i++) {
+        bigRange = Array.apply(null, Array(100)).map(function (_, i) {return i;});
+        smallRange = Array.apply(null, Array(3)).map(function (_, i) {return i;});
+        tenRange = Array.apply(null, Array(5)).map(function (_, i) {return i;});
+        starTwinkleStage = randomFrom("9","13");
+        var top = randomFrom(bigRange); 
+        var right = randomFrom(bigRange); 
+        var width = randomFrom(smallRange);
+        text += "<style></style>";
+        text += "<div class='stars' style='top:" + top + "%; right: "+ right +"%; width:" + width + "px; height:" + width + "px;";
+        text += "animation: twinkling " + starTwinkleStage + "s infinite";
+        text += ";box-shadow: 0px 0px 1vw rgba(255, 255, 255, 0.2);'></div>";
+        chosenDiv.innerHTML = text;
+        chosenDiv.style.display = "block";
+    }
 }
+  
+// Function(How many stars, id that you want populating)
+Stars(40, "demo");
+
+})();
