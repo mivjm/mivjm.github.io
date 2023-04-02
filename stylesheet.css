@@ -15,6 +15,11 @@ a {
   background: black;
 }
 
+html, body {
+  overflow: hidden;
+  background-color: black;
+}
+
 .div-header {
   height: 50px;
   width: 100%;
