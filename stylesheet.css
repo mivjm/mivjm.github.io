@@ -9,12 +9,12 @@ a {
   /* text-decoration: none; */
   /* ↑↑↑ cancel underline */
 }
-
+/*
 .body-background {
   background: white;
   background: black;
 }
-
+*/
 html, body {
   overflow: hidden;
   background-color: black;
