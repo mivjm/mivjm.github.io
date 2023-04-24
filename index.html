@@ -250,19 +250,18 @@
     <!-- Time Stamp -->
     <script>
      var genzai = new Date();
-     document.write(genzai.getFullYear());
-     document.write("<br>");
      var y = genzai.getFullYear();
      var mo = genzai.getMonth() + 1;
+     var months = ["", "", "", "", "", "", "", "", "", "", "", ""];
      var d = genzai.getDate();
      var week = genzai.getDay();
      var weeks = ["日", "月", "火", "水", "木", "金", "土"];
      var w = weeks[week];
+     var m = months[mo];
      var t = genzai.getHours();
      var mi = genzai.getMinutes();
      var s = genzai.getSeconds();
      var ms = genzai.getMilliseconds();
-     <!-- document.write(y + "年" + mo + "月" + d + "日" + w + "曜日" + t + "時" + mi + "分" + s + "秒" + ms + "ミリ秒"); -->
      document.write(d + " " + mo + " " + y);
     </script>
     <br>
