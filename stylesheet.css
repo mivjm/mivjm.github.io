@@ -10,7 +10,6 @@ a {
   /* ↑↑↑ cancel underline */
 }
 .body-background {
-  background: white;
   background: black;
 }
 
@@ -29,19 +28,15 @@ a {
 
 .div-contents {
   width: 800px;
+  width: 100%;
   margin: 20px auto;
-  background: white;
   background: black;
-  /* padding: 50px 10px; */
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
 }
 
 .div-profile {
   width: 800px;
-  /* margin: 20px auto; */
-  /* background: white; */
-  /* background: black; */
-  /* padding: 50px 10px; */
+  width: 100%;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
 }
 
@@ -60,6 +55,7 @@ a {
 
 .div-titlelogo {
   max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -206,10 +202,11 @@ a {
 
 #overlay-inner {
   padding: 10px 60px;
-  background-color: #FFF;
+  background-color: white;
   text-align: center;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   width: 800px;
+  width: 90%;
   height: 90%;
 }
 
