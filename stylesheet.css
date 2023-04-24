@@ -28,7 +28,7 @@ a {
 
 .div-contents {
 /*  width: 800px; */
-  width: 100%;
+  width: 90%;
   margin: 20px auto;
   background: black;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
@@ -36,7 +36,7 @@ a {
 
 .div-profile {
 /*  width: 800px; */
-  width: 100%;
+  width: 90%;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
 }
 
@@ -55,14 +55,14 @@ a {
 
 .div-titlelogo {
 /*  max-width: 800px; */
-  max-width: 100%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
 .div-titlelogo img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 90%;
   object-fit: cover;
 }
 
