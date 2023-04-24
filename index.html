@@ -227,7 +227,8 @@
    </h1>
    
    <!-- TIP BOX -->
-   <button id="open-btn" class="overlay-event" type="button"><b>TIP BOX</b></button>
+   <button id="open-btn" class="overlay-event" type="button"><b>TIP BOX</b>
+   </button>
    
 <!-- A3. M.I.V.J.M. (If you'd like to know the anecdote, please don't hesitate to ask me about this.) -->
 <!-- Q4. Who are "Dad and Mom" that I love in my heart ? (The answer is ↓) -->   
@@ -244,6 +245,25 @@
     I would appreciate that if you can enjoy casually.<br>
     Nice to meet you, Have a nice day ;D<br>
     <br>
+    
+    <!-- Time Stamp -->
+    <script>
+     var genzai = new Date();
+     document.write(genzai.getFullYear());
+     document.write("<br>");
+     var y = genzai.getFullYear();
+     var mo = genzai.getMonth() + 1;
+     var d = genzai.getDate();
+     var week = genzai.getDay();
+     var weeks = ["日", "月", "火", "水", "木", "金", "土"];
+     var w = weeks[week];
+     var t = genzai.getHours();
+     var mi = genzai.getMinutes();
+     var s = genzai.getSeconds();
+     var ms = genzai.getMilliseconds();
+     document.write(y + "年" + mo + "月" + d + "日" + w + "曜日" + t + "時" + mi + "分" + s + "秒" + ms + "ミリ秒");
+    </script>
+    
     25 APRIL 2023<br>
     Pianist/Bassist/Drummer/Vocalist/Arranger/Composer/Recording engineer/<br>
     Writer/Narrator/3D modeler/Photographer/Videographer/Designer/Illustrator/Editer/<br>
