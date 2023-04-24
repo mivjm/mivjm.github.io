@@ -55,14 +55,14 @@ a {
 
 .div-titlelogo {
 /*  max-width: 800px; */
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 .div-titlelogo img {
   display: block;
   margin: 0 auto;
-  max-width: 90%;
+  max-width: 100%;
   object-fit: cover;
 }
 
