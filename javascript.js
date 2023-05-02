@@ -125,6 +125,25 @@ document.addEventListener('DOMContentLoaded', function(){
     }).render('#paypal-button-container');
   }
 
+
+function dateStamp() { 
+  var genzai = new Date();
+  var y = genzai.getFullYear();
+  var mo = genzai.getMonth();
+  var months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+  var d = genzai.getDate();
+  var week = genzai.getDay();
+  var weeks = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+  var w = weeks[week];
+  var m = months[mo];
+  var t = genzai.getHours();
+  var mi = genzai.getMinutes();
+  var s = genzai.getSeconds();
+  var ms = genzai.getMilliseconds();
+  var text = d + " " + m + " " + y;
+  return text;
+}
+
 // Hello world
 function helloWorld() { 
     var genzai = new Date();
@@ -415,5 +434,4 @@ function helloWorld() {
     } else {
         alert("");
     }
-
 }
