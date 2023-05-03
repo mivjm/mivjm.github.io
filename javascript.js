@@ -214,7 +214,8 @@ function graphicalClock() {
   }
   
   // Hour
-  if (t === 1) {tMark = "●";
+  if (t === 0) {tMark = " ";
+  } else if (t === 1) {tMark = "●";
   } else if (t === 2) {tMark = "●●";
   } else if (t === 3) {tMark = "●●●";
   } else if (t === 4) {tMark = "●●●●";
@@ -242,7 +243,8 @@ function graphicalClock() {
   }
   
   // Minuite
-  if (mi === 1) {miMark = "●";
+  if (mi === 0) {tMark = " ";
+  } else if (mi === 1) {miMark = "●";
   } else if (mi === 2) {miMark = "●●";
   } else if (mi === 3) {miMark = "●●●";
   } else if (mi === 4) {miMark = "●●●●";
