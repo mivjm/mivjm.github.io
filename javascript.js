@@ -307,6 +307,6 @@ function graphicalClock() {
   } else {
   }
   
-  var text = moMark + "|" + dMark + "|" + tMark + "|" + miMark;
+  var text = "|" + moMark + "|" + dMark + "|" + tMark + "|" + miMark + "|";
   return text;
 }
