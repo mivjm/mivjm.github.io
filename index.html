@@ -63,7 +63,10 @@
       <p id="invoiceidError" style="visibility: hidden; color:red; text-align: center;">Please enter an Invoice ID</p>
     <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
   </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=AdiA3DFZKIeRNNadGrRs4k2pyCjOOrfYn9s2ZjhY8IaOtclAsp1cH3dX-MwVDjMySlnWoTJWOAozYG8c&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script 
+   src="https://www.paypal.com/sdk/js?client-id=AdiA3DFZKIeRNNadGrRs4k2pyCjOOrfYn9s2ZjhY8IaOtclAsp1cH3dX-MwVDjMySlnWoTJWOAozYG8c&enable-funding=venmo&currency=USD" 
+   data-sdk-integration-source="button-factory">
+  </script>
   <script>
    initPayPalButton();
   </script>
@@ -117,6 +120,7 @@
     Nice to meet you, Have a nice day ;D<br>
     <br>
     <script>
+     /*
      var genzai = new Date();
      var y = genzai.getFullYear();
      var mo = genzai.getMonth();
@@ -131,10 +135,10 @@
      var s = genzai.getSeconds();
      var ms = genzai.getMilliseconds();
      document.write(d + " " + m + " " + y);
-     /*
-     var text = dateStamp();
-     document.write(text);
      */
+     // var text = dateStamp();
+     var text = "test";
+     document.write(text);
     </script>
     <br>
     Multi artist/<br>
