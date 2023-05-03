@@ -163,18 +163,18 @@ function graphicalClock() {
   var moMark, dMark, tMark, miMark;
   
   // Month
-  if (mo === 1) {moMark = "●";
-  } else if (mo === 2) {moMark = "●";
-  } else if (mo === 3) {moMark = "●●●";
-  } else if (mo === 4) {moMark = "●●●●";
-  } else if (mo === 5) {moMark = "⦿";
-  } else if (mo === 6) {moMark = "⦿●";
-  } else if (mo === 7) {moMark = "⦿●●";
-  } else if (mo === 8) {moMark = "⦿●●●";
-  } else if (mo === 9) {moMark = "⦿●●●●";
-  } else if (mo === 10) {moMark = "〇";
-  } else if (mo === 11) {moMark = "〇●";
-  } else if (mo === 12) {moMark = "〇●●";
+  if (mo === 0) {moMark = "●";
+  } else if (mo === 1) {moMark = "●●";
+  } else if (mo === 2) {moMark = "●●●";
+  } else if (mo === 3) {moMark = "●●●●";
+  } else if (mo === 4) {moMark = "⦿";
+  } else if (mo === 5) {moMark = "⦿●";
+  } else if (mo === 6) {moMark = "⦿●●";
+  } else if (mo === 7) {moMark = "⦿●●●";
+  } else if (mo === 8) {moMark = "⦿●●●●";
+  } else if (mo === 9) {moMark = "〇";
+  } else if (mo === 10) {moMark = "〇●";
+  } else if (mo === 11) {moMark = "〇●●";
   } else {
   }
   
