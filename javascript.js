@@ -159,8 +159,7 @@ function graphicalClock() {
   var mi = genzai.getMinutes();
   var s = genzai.getSeconds();
   var ms = genzai.getMilliseconds();
-  alert(mo + " " + d + " " + t + " " + mi);
-  
+  // alert(mo + " " + d + " " + t + " " + mi);
   var moMark, dMark, tMark, miMark;
   
   // Month
