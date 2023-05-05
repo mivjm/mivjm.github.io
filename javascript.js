@@ -321,6 +321,5 @@ function moonCalender() {
   ];
   let da = d - 1;
   var moonAge = moonAgeList[mo][da];
-  alert(moonAge);
   return moonAge;
 }
