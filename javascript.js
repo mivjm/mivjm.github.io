@@ -289,6 +289,7 @@ function graphicalClock() {
   return text;
 }
 
+// Moon Calender 2023
 function moonCalender() {
   let genzai = new Date();
   let mo = genzai.getMonth();
@@ -320,6 +321,40 @@ function moonCalender() {
     [18.1, 19.1, 20.1, 21.1, 22.1, 23.1, 24.1, 25.1, 26.1, 27.1, 28.1, 29.1, 0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5, 12.5, 13.5, 14.5, 15.5, 16.5, 17.5, 18.5]
   ];
   let da = d - 1;
-  var moonAge = moonAgeList[mo][da];
-  return moonAge;
+  let moonAge = moonAgeList[mo][da];
+  let moonAgeMarkList = [
+    " ", 
+    "●", 
+    "●●", 
+    "●●●", 
+    "●●●●", 
+    "⦿", 
+    "⦿●", 
+    "⦿●●", 
+    "⦿●●●", 
+    "⦿●●●●", 
+    "〇", 
+    "〇●", 
+    "〇●●", 
+    "〇●●●", 
+    "〇●●●●", 
+    "〇⦿", 
+    "〇⦿●", 
+    "〇⦿●●", 
+    "〇⦿●●●", 
+    "〇⦿●●●●", 
+    "〇〇", 
+    "〇〇●", 
+    "〇〇●●", 
+    "〇〇●●●", 
+    "〇〇●●●●", 
+    "〇〇⦿", 
+    "〇〇⦿●", 
+    "〇〇⦿●●", 
+    "〇〇⦿●●●", 
+    "〇〇⦿●●●●",
+  ];
+  let ma = Math.round(moonAge);
+  var moonAgeMark = moonAgeMarkList[ma];
+  return moonAgeMark;
 }
