@@ -388,7 +388,6 @@ function moonCalender() {
     "●〇〇〇〇〇〇〇〇〇〇〇〇〇〇", 
   ];
   let ma = Math.round(moonAge);
-  ma = 30;
   if (ma === 30) {ma = 0;}
   var moonAgeMark = moonAgeMarkList[ma];
   return moonAgeMark;
