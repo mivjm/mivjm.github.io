@@ -285,7 +285,7 @@ function graphicalClock() {
   let dMark = dMarkList[d];
   let tMark = tMarkList[t];
   let miMark = miMarkList[mi];
-  var text = "|" + moMark + "|" + dMark + "|" + tMark + "|" + miMark + "|";
+  var text = moMark + "|" + dMark + "|" + tMark + "|" + miMark + "|";
   return text;
 }
 
