@@ -243,7 +243,7 @@ function graphicalClock() {
   }
   
   // Minuite
-  if (mi === 0) {tMark = " ";
+  if (mi === 0) {miMark = " ";
   } else if (mi === 1) {miMark = "●";
   } else if (mi === 2) {miMark = "●●";
   } else if (mi === 3) {miMark = "●●●";
