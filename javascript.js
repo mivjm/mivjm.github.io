@@ -392,6 +392,6 @@ function sunCalender() {
   ];
   let sunTime = sunTimeList[mo][d];
   // [4:25~6:51, 16:28~19:01]
-  Alert(sunTime[0][0] + "~" + sunTime[0][1]);
-  // Alert(sunTime);
+  var st = sunTime[0][0] + "~" + sunTime[0][1];
+  return st;
 }
