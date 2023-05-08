@@ -358,7 +358,7 @@ function moonCalender() {
   var moonAgeMark = moonAgeMarkList[ma];
   return moonAgeMark;
 }
-/*
+
 // Sun Calender 2023
 function sunCalender() {
   let genzai = new Date();
@@ -394,4 +394,3 @@ function sunCalender() {
   // [4:25~6:51, 16:28~19:01]
   Alert(sunTime);
 }
-*/
