@@ -392,6 +392,22 @@ function sunCalender() {
   ];
   let sunTime = sunTimeList[mo][d];
   // [4:25~6:51, 16:28~19:01]
+  let sunriseMarkList = [
+    "〇〇〇〇〇●", 
+    "〇〇〇〇●●", 
+    "〇〇〇●●●", 
+    "〇〇●●●●", 
+    "〇●●●●●", 
+    "●●●●●●"
+  ];
+  let sunsetMarkList = [
+    "●〇〇〇〇〇", 
+    "●●〇〇〇〇", 
+    "●●●〇〇〇", 
+    "●●●●〇〇", 
+    "●●●●●〇", 
+    "●●●●●●"
+  ];
   var st = sunTime[0] + "~" + sunTime[1];
   return st;
 }
