@@ -392,7 +392,6 @@ function sunCalender() {
   ];
   let sunTime = sunTimeList[mo][d];
   // [4:25~6:51, 16:28~19:01]
-  var st = sunTime[0] + "~" + sunTime[1];
   let sunriseMarkList = [
     "〇〇〇〇〇●", 
     "〇〇〇〇●●", 
@@ -409,5 +408,6 @@ function sunCalender() {
     "●●●●●〇", 
     "●●●●●●"
   ];
-  return st;
+  var text = sunTime[0] + "~" + sunTime[1];
+  return text;
 }
