@@ -359,8 +359,8 @@ function moonCalender() {
   return moonAgeMark;
 }
 
-// Sun Calender 2023
-function sunCalender() {
+// Sunshine graph 2023
+function sunshineGraph() {
   let genzai = new Date();
   let mo = genzai.getMonth();
   let d = genzai.getDate() - 1;
