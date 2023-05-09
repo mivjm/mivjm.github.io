@@ -132,83 +132,7 @@ function graphicalClock() {
   let d = genzai.getDate();
   let t = genzai.getHours();
   let mi = genzai.getMinutes();
-  /*
-  let moMarkList = [
-    "●", 
-    "●●", 
-    "●●●", 
-    "●●●●", 
-    "⦿", 
-    "⦿●", 
-    "⦿●●", 
-    "⦿●●●", 
-    "⦿●●●●", 
-    "〇", 
-    "〇●", 
-    "〇●●"
-  ];
-  let dMarkList = [
-    "●", 
-    "●●", 
-    "●●●", 
-    "●●●●", 
-    "⦿", 
-    "⦿●", 
-    "⦿●●", 
-    "⦿●●●", 
-    "⦿●●●●", 
-    "〇", 
-    "〇●", 
-    "〇●●", 
-    "〇●●●", 
-    "〇●●●●", 
-    "〇⦿", 
-    "〇⦿●", 
-    "〇⦿●●", 
-    "〇⦿●●●", 
-    "〇⦿●●●●", 
-    "〇〇", 
-    "〇〇●", 
-    "〇〇●●", 
-    "〇〇●●●", 
-    "〇〇●●●●", 
-    "〇〇⦿", 
-    "〇〇⦿●", 
-    "〇〇⦿●●", 
-    "〇〇⦿●●●", 
-    "〇〇⦿●●●●", 
-    "〇〇〇", 
-    "〇〇〇●"
-  ];
-  let tMarkList = [
-    " ", 
-    "●", 
-    "●●", 
-    "●●●", 
-    "●●●●", 
-    "⦿", 
-    "⦿●", 
-    "⦿●●", 
-    "⦿●●●", 
-    "⦿●●●●", 
-    "〇", 
-    "〇●", 
-    "〇●●", 
-    "〇●●●", 
-    "〇●●●●", 
-    "〇⦿", 
-    "〇⦿●", 
-    "〇⦿●●", 
-    "〇⦿●●●", 
-    "〇⦿●●●●", 
-    "〇〇", 
-    "〇〇●", 
-    "〇〇●●", 
-    "〇〇●●●", 
-    "〇〇●●●●"
-  ];
-  */
-  let miMarkList = [
+  let numberMarkList = [
     " ", 
     "●", 
     "●●", 
@@ -271,10 +195,10 @@ function graphicalClock() {
     "〇〇〇〇〇⦿●●●●", 
     "〇〇〇〇〇〇"
   ];
-  let moMark = miMarkList[mo];
-  let dMark = miMarkList[d];
-  let tMark = miMarkList[t];
-  let miMark = miMarkList[mi];
+  let moMark = numberMarkList[mo];
+  let dMark = numberMarkList[d];
+  let tMark = numberMarkList[t];
+  let miMark = numberMarkList[mi];
   var text = moMark + "|" + dMark + "|" + tMark + "|" + miMark;
   return text;
 }
