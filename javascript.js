@@ -128,10 +128,11 @@ function dateStamp() {
 // Graphical Clock
 function graphicalClock() { 
   let genzai = new Date();
-  let mo = genzai.getMonth();
-  let d = genzai.getDate() - 1;
+  let mo = genzai.getMonth() + 1;
+  let d = genzai.getDate();
   let t = genzai.getHours();
   let mi = genzai.getMinutes();
+  /*
   let moMarkList = [
     "●", 
     "●●", 
@@ -206,6 +207,7 @@ function graphicalClock() {
     "〇〇●●●", 
     "〇〇●●●●"
   ];
+  */
   let miMarkList = [
     " ", 
     "●", 
@@ -269,9 +271,9 @@ function graphicalClock() {
     "〇〇〇〇〇⦿●●●●", 
     "〇〇〇〇〇〇"
   ];
-  let moMark = moMarkList[mo];
-  let dMark = dMarkList[d];
-  let tMark = tMarkList[t];
+  let moMark = miMarkList[mo];
+  let dMark = miMarkList[d];
+  let tMark = miMarkList[t];
   let miMark = miMarkList[mi];
   var text = moMark + "|" + dMark + "|" + tMark + "|" + miMark;
   return text;
