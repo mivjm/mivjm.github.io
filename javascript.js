@@ -271,8 +271,8 @@ function moonCalender() {
   ];
   let ma = Math.round(moonAge);
   if (ma === 30) {ma = 0;}
-  var moonAgeMark = moonAgeMarkList[ma];
-  return moonAgeMark;
+  var text = moonAgeMarkList[ma];
+  return text;
 }
 
 // Season Calender 2023
@@ -333,6 +333,6 @@ function seasonCalender() {
     "〇〇〇〇〇〇〇〇〇〇〇●●", // 22.大雪(12/07, 18:33)
     "〇〇〇〇〇〇〇〇〇〇〇〇●"  // 23.冬至(12/22, 12:27)
   ];
-  var seasonAgeMark = seasonAgeMarkList[seasonAge];
-  return seasonAgeMark;
+  var text = seasonAgeMarkList[seasonAge];
+  return text;
 }
