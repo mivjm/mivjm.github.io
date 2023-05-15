@@ -93,7 +93,7 @@ a {
 .h1-center {
   margin: 30px 10px;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 
@@ -142,6 +142,13 @@ a {
   color: white;
 }
 
+.h2-header {
+  text-align: center;
+  margin: auto 0;
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
 .h3-header {
   text-align: center;
   margin: auto 0;
@@ -150,6 +157,20 @@ a {
 }
 
 .h4-header {
+  text-align: center;
+  margin: auto 0;
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.h2-footer {
+  text-align: center;
+  margin: auto 0;
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.h3-footer {
   text-align: center;
   margin: auto 0;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
