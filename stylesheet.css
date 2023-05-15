@@ -252,6 +252,7 @@ a {
   padding: 10px 60px;
   background-color: white;
   text-align: center;
+  font-size: 16px;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   width: 90%;
   height: 90%;
@@ -272,6 +273,7 @@ a {
   border: solid #ccc 1px;
   cursor: pointer;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  font-size: 16px;
   color: inherit;
   background: white;
   color: black;
@@ -285,6 +287,7 @@ a {
   border: solid #ccc 1px;
   cursor: pointer;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  font-size: 16px;
   color: inherit;
   background: black;
   color: white;
