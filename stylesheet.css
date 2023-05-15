@@ -28,7 +28,6 @@ a {
 
 .div-contents {
   width: 90%;
-  width: 800px;
   margin: 20px auto;
   background: black;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
@@ -36,7 +35,6 @@ a {
 
 .div-profile {
   width: 100%;
-  width: 800px;
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
 }
 
