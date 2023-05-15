@@ -172,6 +172,16 @@ a {
   color: white;
 }
 
+.p-profile-justify {
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  text-align: justify;
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
 #overlay {
   position: fixed;
   top: 0;
