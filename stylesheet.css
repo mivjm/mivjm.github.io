@@ -65,6 +65,7 @@ a {
   margin: 0 auto;
   max-width: 100%;
   object-fit: cover;
+  float: right;
 }
 
 .h1-title {
