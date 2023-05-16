@@ -223,6 +223,10 @@ a {
   color: white;
 }
 
+.img-profile-right {
+  float: right;
+}
+
 #overlay {
   position: fixed;
   top: 0;
