@@ -38,6 +38,10 @@ a {
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
 }
 
+.div-profile-img {
+  float: right;
+}
+
 .div-footer {
   height: 50px;
   width: 100%;
@@ -228,10 +232,6 @@ a {
   font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu-Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
   color: white;
   clear: right;
-}
-
-.img-profile-right {
-  floast: right;
 }
 
 #overlay {
